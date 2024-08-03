@@ -1,7 +1,9 @@
 **ePJ2 - E-Mobility Rental System**
+
 ePJ2 is an e-mobility company specializing in renting electric cars, bikes, and scooters in the city of Java. This project simulates the usage of these vehicles based on predefined data, generating detailed financial reports, statistics, and tracking the state of all the vehicles used.
 
 **Project Overview**
+
 The primary objective of this project is to create a program that:
 - Simulates the usage of electric vehicles.
 - Tracks and maintains the state of all vehicles.
