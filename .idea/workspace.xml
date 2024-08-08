@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c9bf9a-a29d-4046-a494-e61e10483f19" name="Changes" comment="Some of the base classes implemented.">
+    <list default="true" id="91c9bf9a-a29d-4046-a494-e61e10483f19" name="Changes" comment="Implemented some of the classes.&#10;TO DO: Implement the rest of them.&#10;TO DO: Finish backend, do unit tests.&#10;TO DO: Implement GUI after positive test results.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ePJ2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ePJ2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ElectricBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ElectricBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ElectricScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ElectricScooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/MalfunctionTableView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/MalfunctionTableView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Rent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,32 +62,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.VehicleMap.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/23dej/Desktop/JAVA_programi/ePJ2/src",
+    "last_opened_file_path": "C:/Program Files/Java/jre1.8.0_361/lib",
     "onboarding.tips.debug.path": "C:/Users/23dej/Desktop/JAVA_programi/CarRentalCompany/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+    "project.structure.side.proportion": "0.2",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ePJ2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ePJ2" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -128,12 +116,30 @@
       <option name="project" value="LOCAL" />
       <updated>1723034491787</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added properties files. Added Rent and User classes. &#10;TO DO: Implement added classes.">
+      <option name="closed" value="true" />
+      <created>1723111698359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723111698359</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implemented some of the classes.&#10;TO DO: Implement the rest of them.&#10;TO DO: Finish backend, do unit tests.&#10;TO DO: Implement GUI after positive test results.">
+      <option name="closed" value="true" />
+      <created>1723143563393</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723143563393</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changing name of the project because of requirements." />
     <MESSAGE value="Some of the base classes implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Some of the base classes implemented." />
+    <MESSAGE value="Added properties files. Added Rent and User classes. &#10;TO DO: Implement added classes." />
+    <MESSAGE value="Implemented some of the classes.&#10;TO DO: Implement the rest of them.&#10;TO DO: Finish backend, do unit tests.&#10;TO DO: Implement GUI after positive test results." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented some of the classes.&#10;TO DO: Implement the rest of them.&#10;TO DO: Finish backend, do unit tests.&#10;TO DO: Implement GUI after positive test results." />
   </component>
 </project>
