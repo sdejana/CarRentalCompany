@@ -4,12 +4,105 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c9bf9a-a29d-4046-a494-e61e10483f19" name="Changes" comment="Changed user class, added some logic for making ids. &#10;TO DO: add explanations&#10;TO DO: implement Rent class and perform unit tests&#10;TO DO: connect JavaFX and IntelliJ, solve errors">
+    <list default="true" id="91c9bf9a-a29d-4046-a494-e61e10483f19" name="Changes" comment="Changed some GUI classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclasses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exceptions/FileException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exceptions/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exceptions/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/MalfunctionTableView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/ReportTableView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/jszip-utils/dist/jszip-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/jszip/dist/jszip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/jszip/dist/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Car.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/DomesticUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/ElectricBike.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/ElectricScooter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/ForeignUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Rent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/User.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Vehicle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/BillingService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/RentalService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/ReportService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/VehicleService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/FileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_control/MapControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/PJ2 - projektni zadatak 2024 - Iznajmljivanja (3).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/testni.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/bike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/factors.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/rentalPrices.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/scooter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/FileUtil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/PropertyLoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/factors.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/rentalPrices.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ePJ2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ePJ2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/MalfunctionTableView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui_control/MalfunctionTableView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ReportTableView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui_control/ReportTableView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/VehicleTableView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui_control/VehicleTableView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/ForeignUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ForeignUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Rent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
@@ -165,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723633900347</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changed some GUI classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes">
+      <option name="closed" value="true" />
+      <created>1724093289783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724093289783</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,7 +275,8 @@
     <MESSAGE value="Added properties files. Added Rent and User classes. &#10;TO DO: Implement added classes." />
     <MESSAGE value="Implemented some of the classes.&#10;TO DO: Implement the rest of them.&#10;TO DO: Finish backend, do unit tests.&#10;TO DO: Implement GUI after positive test results." />
     <MESSAGE value="Changed user class, added some logic for making ids. &#10;TO DO: add explanations&#10;TO DO: implement Rent class and perform unit tests&#10;TO DO: connect JavaFX and IntelliJ, solve errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed user class, added some logic for making ids. &#10;TO DO: add explanations&#10;TO DO: implement Rent class and perform unit tests&#10;TO DO: connect JavaFX and IntelliJ, solve errors" />
+    <MESSAGE value="Changed some GUI classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed some GUI classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
