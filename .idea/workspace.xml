@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c9bf9a-a29d-4046-a494-e61e10483f19" name="Changes" comment="Implemented some of the classes.&#10;TO DO: Implement the rest of them.&#10;TO DO: Finish backend, do unit tests.&#10;TO DO: Implement GUI after positive test results.">
+    <list default="true" id="91c9bf9a-a29d-4046-a494-e61e10483f19" name="Changes" comment="Changed user class, added some logic for making ids. &#10;TO DO: add explanations&#10;TO DO: implement Rent class and perform unit tests&#10;TO DO: connect JavaFX and IntelliJ, solve errors">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ePJ2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ePJ2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/MalfunctionTableView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/MalfunctionTableView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ForeignUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ForeignUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Rent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/RentalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/RentalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/PropertyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/PropertyLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +65,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application..executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Map.executor": "Run",
+    "Application.Unnamed.executor": "Run",
     "Application.VehicleMap.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Program Files/Java/jre1.8.0_361/lib",
+    "last_opened_file_path": "C:/Users/23dej/Desktop/JAVA_programi/javafx-sdk-11/lib",
     "onboarding.tips.debug.path": "C:/Users/23dej/Desktop/JAVA_programi/CarRentalCompany/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -75,6 +82,16 @@
     "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="gui_control.MapControl" />
+      <module name="ePJ2" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;$PROJECT_DIR$/../javafx-sdk-11/lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -132,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723143563393</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changed user class, added some logic for making ids. &#10;TO DO: add explanations&#10;TO DO: implement Rent class and perform unit tests&#10;TO DO: connect JavaFX and IntelliJ, solve errors">
+      <option name="closed" value="true" />
+      <created>1723633757001</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723633757001</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed user class, added some logic for making ids. &#10;TO DO: add explanations&#10;TO DO: implement Rent class and perform unit tests&#10;TO DO: connect JavaFX and IntelliJ, solve errors">
+      <option name="closed" value="true" />
+      <created>1723633900347</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723633900347</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +173,17 @@
     <MESSAGE value="Some of the base classes implemented." />
     <MESSAGE value="Added properties files. Added Rent and User classes. &#10;TO DO: Implement added classes." />
     <MESSAGE value="Implemented some of the classes.&#10;TO DO: Implement the rest of them.&#10;TO DO: Finish backend, do unit tests.&#10;TO DO: Implement GUI after positive test results." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented some of the classes.&#10;TO DO: Implement the rest of them.&#10;TO DO: Finish backend, do unit tests.&#10;TO DO: Implement GUI after positive test results." />
+    <MESSAGE value="Changed user class, added some logic for making ids. &#10;TO DO: add explanations&#10;TO DO: implement Rent class and perform unit tests&#10;TO DO: connect JavaFX and IntelliJ, solve errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed user class, added some logic for making ids. &#10;TO DO: add explanations&#10;TO DO: implement Rent class and perform unit tests&#10;TO DO: connect JavaFX and IntelliJ, solve errors" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

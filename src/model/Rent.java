@@ -1,8 +1,8 @@
 package model;
 
+import exceptions.FileException;
 import util.PropertyLoader;
 
-import javax.xml.stream.Location;
 import java.time.Duration;
 import java.time.LocalDateTime;
 
@@ -13,9 +13,29 @@ public class Rent
     private String pickUpLocation;
     private String dropOffLocation;
     private long duration;
-    private boolean amIForeigner = false;
-    private static PropertyLoader rentalPrices = new PropertyLoader("resources/rentalPrices.properties");
-    private static PropertyLoader factors = new PropertyLoader("resources/factors.properties");
+
+    static
+    {
+        try
+        {
+            PropertyLoader rentalPrices = new PropertyLoader("resources/rentalPrices.properties");
+        } catch (FileException e)
+        {
+            System.err.println(e.getMessage());
+        }
+    }
+
+    static
+    {
+        try
+        {
+            PropertyLoader factors = new PropertyLoader("resources/factors.properties");
+        } catch (FileException e)
+        {
+            System.err.println(e.getMessage());
+        }
+    }
+
     private LocalDateTime endTime;
 
     public Rent(LocalDateTime dateTime, User user, String pickUpLocation, String dropOffLocation, long duration)
@@ -26,6 +46,11 @@ public class Rent
         this.dropOffLocation = dropOffLocation;
         this.duration = duration;
 
+    }
+
+    public Rent(User user)
+    {
+        this.user = user;
     }
 
     public LocalDateTime getDateTime()
@@ -105,19 +130,15 @@ public class Rent
 
         this.duration = Duration.between(this.dateTime, this.endTime).getSeconds();
     }
-    public LocalDateTime getEndTime() {
+
+    public LocalDateTime getEndTime()
+    {
         return endTime;
     }
 
-    public void setEndTime(LocalDateTime endTime) {
+    public void setEndTime(LocalDateTime endTime)
+    {
         this.endTime = endTime;
     }
 
-    public boolean isAmIForeigner() {
-        return amIForeigner;
-    }
-
-    public void setAmIForeigner(boolean amIForeigner) {
-        this.amIForeigner = amIForeigner;
-    }
 }

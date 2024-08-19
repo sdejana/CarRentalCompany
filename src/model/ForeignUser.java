@@ -2,7 +2,7 @@ package model;
 
 public class ForeignUser extends User
 {
-    private String passportNumber;
+    private final String passportNumber;
 
     public ForeignUser(String userName, String passportNumber)
     {

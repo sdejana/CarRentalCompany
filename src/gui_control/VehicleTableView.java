@@ -1,4 +1,4 @@
-package gui;
+package gui_control;
 
 /*import javafx.application.Application;
 import javafx.scene.Scene;
