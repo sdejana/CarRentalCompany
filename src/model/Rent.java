@@ -13,7 +13,7 @@ public class Rent
     private String pickUpLocation;
     private String dropOffLocation;
     private long duration;
-
+    private Vehicle vehicle;
     static
     {
         try
@@ -38,7 +38,7 @@ public class Rent
 
     private LocalDateTime endTime;
 
-    public Rent(LocalDateTime dateTime, User user, String pickUpLocation, String dropOffLocation, long duration)
+    public Rent(LocalDateTime dateTime, User user, String pickUpLocation, String dropOffLocation, long duration, Vehicle vehicle)
     {
         this.dateTime = dateTime;
         this.user = user;
@@ -46,11 +46,13 @@ public class Rent
         this.dropOffLocation = dropOffLocation;
         this.duration = duration;
 
+        this.vehicle = vehicle;
     }
 
-    public Rent(User user)
+    public Rent(User user, Vehicle vehicle)
     {
         this.user = user;
+        this.vehicle = vehicle;
     }
 
     public LocalDateTime getDateTime()

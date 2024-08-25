@@ -2,14 +2,18 @@ import exceptions.FileException;
 import model.Car;
 import model.DomesticUser;
 import model.ForeignUser;
+import service.VehicleService;
 import util.FileUtil;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.LocalDateTime;
+import java.util.List;
 
 public class Main
 {
-    public static void main(String[] args) throws FileException {
-        LocalDateTime localDateTime = LocalDateTime.now();
+    public static void main(String[] args) throws FileException, IOException {
+       /* LocalDateTime localDateTime = LocalDateTime.now();
         Car c1 = new Car("123Car", "Audi", "A4", 2000,
                 "Used.", localDateTime, 5);
         System.out.print(c1);
@@ -18,13 +22,11 @@ public class Main
         DomesticUser domesticUser = new DomesticUser("dejana");
         ForeignUser foreignUser = new ForeignUser("maria");
         System.out.println();
-        domesticUser.print();
+        domesticUser.print();`
         foreignUser.print();
-        FileUtil fileUtil = new FileUtil();
-        String read = fileUtil.readFromFile("src/model/PJ2 - projektni zadatak 2024 - Iznajmljivanja (3).csv");
-        System.out.println(read);
-        fileUtil.saveToFile("src/model/testni.txt", "Upisujem testne podatke.");
-        read = fileUtil.sortDataByDateTime(read);
-        System.out.println("Sortirano" + read);
+        */
+        VehicleService vehicleService = new VehicleService();
+        //vehicleService.getVehicleData(FileUtil.getTestDataPath());
+       // System.out.println(vehicleService);
     }
 }
