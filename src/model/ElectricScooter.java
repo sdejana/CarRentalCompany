@@ -12,7 +12,10 @@ public class ElectricScooter extends Vehicle
         super(id, manufacturer, model, purchasePrice, description, purchaseDate);
         this.maxSpeed = maxSpeed;
     }
-
+    public ElectricScooter(String id)
+    {
+        super(id);
+    }
     public double getMaxSpeed()
     {
         return maxSpeed;

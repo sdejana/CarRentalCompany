@@ -74,13 +74,15 @@ public class RentalService {
         data = FileUtil.getDataFromFile(filepath);
         data = FileUtil.sortDataByDateTime(data);
 
-        List<String> validData = new ArrayList<>(data.size());
+        //data.forEach(System.out::println);
+        //List<String> validData = new ArrayList<>(data.size());
 
         int carNumber = 1;
 
         while (carNumber != data.size())
         {
             String temp = CSVParser.parseCSVLine(data.get(carNumber));
+            System.out.println(temp);
             String[] parameters = CSVParser.getParameters(temp);
 
             if (Arrays.stream(parameters).count() < 9)

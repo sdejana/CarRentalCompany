@@ -14,6 +14,7 @@ public class FileUtil
 {
     private static final String testDataPath = "resources" + File.separator + "data" + File.separator
             + "PJ2 - projektni zadatak 2024 - Iznajmljivanja.csv";
+
     public void saveToFile(String filepath, String data)
     {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filepath)))

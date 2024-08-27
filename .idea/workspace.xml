@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c9bf9a-a29d-4046-a494-e61e10483f19" name="Changes" comment="Changed some GUI classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes">
-      <change afterPath="$PROJECT_DIR$/src/gui_control/MapView.java" afterDir="false" />
+    <list default="true" id="91c9bf9a-a29d-4046-a494-e61e10483f19" name="Changes" comment="Changed some service classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data/PJ2 - projektni zadatak 2024 - Prevozna sredstva.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/data/PJ2 - projektni zadatak 2024 - Prevozna sredstva.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui_control/MapControl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/PJ2 - projektni zadatak 2024 - Iznajmljivanja (3).csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Rent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/testni.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/bike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/car.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/factors.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/glass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/rentalPrices.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scooter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ElectricBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ElectricBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ElectricScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ElectricScooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/RentalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/RentalService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/CSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/CSVParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/FileUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724093361653</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Changed some service classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes">
+      <option name="closed" value="true" />
+      <created>1724581993960</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724581993960</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -197,7 +199,8 @@
     <MESSAGE value="Implemented some of the classes.&#10;TO DO: Implement the rest of them.&#10;TO DO: Finish backend, do unit tests.&#10;TO DO: Implement GUI after positive test results." />
     <MESSAGE value="Changed user class, added some logic for making ids. &#10;TO DO: add explanations&#10;TO DO: implement Rent class and perform unit tests&#10;TO DO: connect JavaFX and IntelliJ, solve errors" />
     <MESSAGE value="Changed some GUI classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed some GUI classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes" />
+    <MESSAGE value="Changed some service classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed some service classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

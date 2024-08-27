@@ -12,7 +12,10 @@ public class ElectricBike extends Vehicle
         super(id, manufacturer, model, purchasePrice, description, purchaseDate);
         this.rangePerCharge = rangePerCharge;
     }
-
+    public ElectricBike(String id)
+    {
+        super(id);
+    }
     public double getRangePerCharge()
     {
         return rangePerCharge;

@@ -2,6 +2,7 @@ import exceptions.FileException;
 import model.Car;
 import model.DomesticUser;
 import model.ForeignUser;
+import service.RentalService;
 import service.VehicleService;
 import util.FileUtil;
 
@@ -25,8 +26,10 @@ public class Main
         domesticUser.print();`
         foreignUser.print();
         */
+        RentalService rentalService = new RentalService();
+        //rentalService.getVehicleData("resources/data/PJ2 - projektni zadatak 2024 - Iznajmljivanja.csv");
         VehicleService vehicleService = new VehicleService();
-        //vehicleService.getVehicleData(FileUtil.getTestDataPath());
-       // System.out.println(vehicleService);
+        vehicleService.getVehiclesData("resources/data/PJ2 - projektni zadatak 2024 - Prevozna sredstva.csv");
+        System.out.println(vehicleService);
     }
 }

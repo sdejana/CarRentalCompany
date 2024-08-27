@@ -37,6 +37,10 @@ public abstract class Vehicle
         this.purchaseDate = purchaseDate;
     }
 
+    public Vehicle(String id)
+    {
+        this.id = id;
+    }
     public String getId() { return id; }
     public String getManufacturer() { return manufacturer; }
     public String getModel() { return model; }

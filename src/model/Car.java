@@ -13,7 +13,10 @@ public class Car extends Vehicle
         super(id, manufacturer, model, purchasePrice, description, purchaseDate);
         this.passengerCapacity = passengerCapacity;
     }
-
+    public Car(String id)
+    {
+        super(id);
+    }
     public int getPassengerCapacity()
     {
         return passengerCapacity;
