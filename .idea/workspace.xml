@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c9bf9a-a29d-4046-a494-e61e10483f19" name="Changes" comment="Changed some service classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/data/PJ2 - projektni zadatak 2024 - Prevozna sredstva.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/data/PJ2 - projektni zadatak 2024 - Prevozna sredstva.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ElectricBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ElectricBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ElectricScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ElectricScooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/RentalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/RentalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/VehicleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/CSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/CSVParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/FileUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="91c9bf9a-a29d-4046-a494-e61e10483f19" name="Changes" comment="Changed some service classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724581993960</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Changed some service classes. &#10;TO DO: add reports, tables, some methods in Rent class&#10;TO DO: implement service classes">
+      <option name="closed" value="true" />
+      <created>1724770590239</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724770590239</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
